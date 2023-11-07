@@ -18,6 +18,14 @@ class LoginView : UIView {
         return label
     }()
     
+    let description: SilkLabel = {
+       let label = SilkLabel()
+        label.setStyle(font: .gilroySemibold, size: 28, color: Color.darkBlue)
+        label.text = "Hai, Selamat Datang"
+        return label
+    }()
+    
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
