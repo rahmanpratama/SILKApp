@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA072A8007B800B5B36477F /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */; };
+		5747042DF35516F3FB461818 /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */; };
+		63E7028670B07748C9459672 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */; };
 		878FA4572AFA1E4E00B99FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA4562AFA1E4E00B99FC8 /* AppDelegate.swift */; };
-		878FA4592AFA1E4E00B99FC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA4582AFA1E4E00B99FC8 /* SceneDelegate.swift */; };
-		878FA45B2AFA1E4E00B99FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA45A2AFA1E4E00B99FC8 /* ViewController.swift */; };
+		878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA45A2AFA1E4E00B99FC8 /* StarterVc.swift */; };
 		878FA45E2AFA1E4E00B99FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FA45C2AFA1E4E00B99FC8 /* Main.storyboard */; };
 		878FA4612AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 878FA45F2AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld */; };
 		878FA4632AFA1E4F00B99FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FA4622AFA1E4F00B99FC8 /* Assets.xcassets */; };
-		878FA4662AFA1E4F00B99FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FA4642AFA1E4F00B99FC8 /* LaunchScreen.storyboard */; };
 		878FA4712AFA1E4F00B99FC8 /* SILKAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA4702AFA1E4F00B99FC8 /* SILKAppTests.swift */; };
 		878FA47B2AFA1E4F00B99FC8 /* SILKAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA47A2AFA1E4F00B99FC8 /* SILKAppUITests.swift */; };
 		878FA47D2AFA1E4F00B99FC8 /* SILKAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA47C2AFA1E4F00B99FC8 /* SILKAppUITestsLaunchTests.swift */; };
+		87C4A8C82AFABFAB003D2A99 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8C72AFABFAB003D2A99 /* AuthRouter.swift */; };
+		87C4A8CB2AFAC005003D2A99 /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8CA2AFAC005003D2A99 /* AuthClient.swift */; };
+		87C4A8CD2AFAC00F003D2A99 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8CC2AFAC00F003D2A99 /* AuthService.swift */; };
+		87C4A8D02AFAC377003D2A99 /* AuthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8CF2AFAC377003D2A99 /* AuthContainer.swift */; };
+		87C4A8D82AFAC4EF003D2A99 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8D72AFAC4EF003D2A99 /* HomeRouter.swift */; };
+		87C4A8DA2AFAC501003D2A99 /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8D92AFAC501003D2A99 /* HomeContainer.swift */; };
+		87C4A8DC2AFAC521003D2A99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DB2AFAC521003D2A99 /* HomeView.swift */; };
+		87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */; };
+		87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */; };
+		87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8E12AFAC608003D2A99 /* LoginVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +48,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		878FA4532AFA1E4E00B99FC8 /* SILKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SILKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA4562AFA1E4E00B99FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		878FA4582AFA1E4E00B99FC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		878FA45A2AFA1E4E00B99FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		878FA45A2AFA1E4E00B99FC8 /* StarterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterVc.swift; sourceTree = "<group>"; };
 		878FA45D2AFA1E4E00B99FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878FA4602AFA1E4E00B99FC8 /* SILKApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SILKApp.xcdatamodel; sourceTree = "<group>"; };
 		878FA4622AFA1E4F00B99FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		878FA4652AFA1E4F00B99FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		878FA4672AFA1E4F00B99FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878FA46C2AFA1E4F00B99FC8 /* SILKAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SILKAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA4702AFA1E4F00B99FC8 /* SILKAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILKAppTests.swift; sourceTree = "<group>"; };
 		878FA4762AFA1E4F00B99FC8 /* SILKAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SILKAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA47A2AFA1E4F00B99FC8 /* SILKAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILKAppUITests.swift; sourceTree = "<group>"; };
 		878FA47C2AFA1E4F00B99FC8 /* SILKAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILKAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87C4A8C72AFABFAB003D2A99 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		87C4A8CA2AFAC005003D2A99 /* AuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		87C4A8CC2AFAC00F003D2A99 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		87C4A8CF2AFAC377003D2A99 /* AuthContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainer.swift; sourceTree = "<group>"; };
+		87C4A8D72AFAC4EF003D2A99 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		87C4A8D92AFAC501003D2A99 /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
+		87C4A8DB2AFAC521003D2A99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkButton.swift; sourceTree = "<group>"; };
+		87C4A8E12AFAC608003D2A99 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
+		F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.release.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E7028670B07748C9459672 /* Pods_SILKApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5747042DF35516F3FB461818 /* Pods_SILKAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA072A8007B800B5B36477F /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0768BA076ED33A12265700B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */,
+				199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */,
+				DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		878FA44A2AFA1E4D00B99FC8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				878FA46F2AFA1E4F00B99FC8 /* SILKAppTests */,
 				878FA4792AFA1E4F00B99FC8 /* SILKAppUITests */,
 				878FA4542AFA1E4E00B99FC8 /* Products */,
+				DADFCCC493F277FB1C328214 /* Pods */,
+				0768BA076ED33A12265700B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +144,11 @@
 		878FA4552AFA1E4E00B99FC8 /* SILKApp */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A8C22AFABF35003D2A99 /* apps */,
 				878FA4562AFA1E4E00B99FC8 /* AppDelegate.swift */,
-				878FA4582AFA1E4E00B99FC8 /* SceneDelegate.swift */,
-				878FA45A2AFA1E4E00B99FC8 /* ViewController.swift */,
+				878FA45A2AFA1E4E00B99FC8 /* StarterVc.swift */,
 				878FA45C2AFA1E4E00B99FC8 /* Main.storyboard */,
 				878FA4622AFA1E4F00B99FC8 /* Assets.xcassets */,
-				878FA4642AFA1E4F00B99FC8 /* LaunchScreen.storyboard */,
 				878FA4672AFA1E4F00B99FC8 /* Info.plist */,
 				878FA45F2AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld */,
 			);
@@ -130,6 +172,132 @@
 			path = SILKAppUITests;
 			sourceTree = "<group>";
 		};
+		878FA48A2AFA347900B99FC8 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8CE2AFAC34F003D2A99 /* ui */,
+				87C4A8C62AFABF84003D2A99 /* client */,
+				87C4A8C52AFABF80003D2A99 /* service */,
+				87C4A8C42AFABF73003D2A99 /* configuration */,
+				87C4A8C32AFABF67003D2A99 /* router */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		878FA48B2AFA34AA00B99FC8 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */,
+				87C4A8E12AFAC608003D2A99 /* LoginVc.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		878FA48C2AFA34B600B99FC8 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		87C4A8C22AFABF35003D2A99 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8D12AFAC4A1003D2A99 /* home */,
+				878FA48C2AFA34B600B99FC8 /* components */,
+				878FA48A2AFA347900B99FC8 /* auth */,
+			);
+			path = apps;
+			sourceTree = "<group>";
+		};
+		87C4A8C32AFABF67003D2A99 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8C72AFABFAB003D2A99 /* AuthRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		87C4A8C42AFABF73003D2A99 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8CF2AFAC377003D2A99 /* AuthContainer.swift */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		87C4A8C52AFABF80003D2A99 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8CC2AFAC00F003D2A99 /* AuthService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		87C4A8C62AFABF84003D2A99 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8CA2AFAC005003D2A99 /* AuthClient.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		87C4A8CE2AFAC34F003D2A99 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				878FA48B2AFA34AA00B99FC8 /* login */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		87C4A8D12AFAC4A1003D2A99 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8D62AFAC4E4003D2A99 /* router */,
+				87C4A8D52AFAC4D3003D2A99 /* configuration */,
+				87C4A8D22AFAC4B4003D2A99 /* ui */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		87C4A8D22AFAC4B4003D2A99 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8DB2AFAC521003D2A99 /* HomeView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		87C4A8D52AFAC4D3003D2A99 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8D92AFAC501003D2A99 /* HomeContainer.swift */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		87C4A8D62AFAC4E4003D2A99 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A8D72AFAC4EF003D2A99 /* HomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		DADFCCC493F277FB1C328214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */,
+				F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */,
+				F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */,
+				492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */,
+				7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */,
+				F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4802AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKApp" */;
 			buildPhases = (
+				EF7EC9924CAF636B1BFBA862 /* [CP] Check Pods Manifest.lock */,
 				878FA44F2AFA1E4D00B99FC8 /* Sources */,
 				878FA4502AFA1E4D00B99FC8 /* Frameworks */,
 				878FA4512AFA1E4D00B99FC8 /* Resources */,
+				6EAE13C3A7793A32DD54EDCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4832AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKAppTests" */;
 			buildPhases = (
+				9614DFF02935641AC8550FF3 /* [CP] Check Pods Manifest.lock */,
 				878FA4682AFA1E4F00B99FC8 /* Sources */,
 				878FA4692AFA1E4F00B99FC8 /* Frameworks */,
 				878FA46A2AFA1E4F00B99FC8 /* Resources */,
@@ -172,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4862AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKAppUITests" */;
 			buildPhases = (
+				E39970AB0E969A9A218FB370 /* [CP] Check Pods Manifest.lock */,
 				878FA4722AFA1E4F00B99FC8 /* Sources */,
 				878FA4732AFA1E4F00B99FC8 /* Frameworks */,
 				878FA4742AFA1E4F00B99FC8 /* Resources */,
+				3C727F5755C428982A88A117 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +407,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878FA4662AFA1E4F00B99FC8 /* LaunchScreen.storyboard in Resources */,
 				878FA4632AFA1E4F00B99FC8 /* Assets.xcassets in Resources */,
 				878FA45E2AFA1E4E00B99FC8 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +428,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C727F5755C428982A88A117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAE13C3A7793A32DD54EDCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9614DFF02935641AC8550FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SILKAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39970AB0E969A9A218FB370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SILKApp-SILKAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7EC9924CAF636B1BFBA862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SILKApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		878FA44F2AFA1E4D00B99FC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C4A8DA2AFAC501003D2A99 /* HomeContainer.swift in Sources */,
 				878FA4612AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld in Sources */,
-				878FA45B2AFA1E4E00B99FC8 /* ViewController.swift in Sources */,
+				878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */,
+				87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */,
+				87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */,
+				87C4A8C82AFABFAB003D2A99 /* AuthRouter.swift in Sources */,
+				87C4A8D02AFAC377003D2A99 /* AuthContainer.swift in Sources */,
+				87C4A8DC2AFAC521003D2A99 /* HomeView.swift in Sources */,
+				87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */,
 				878FA4572AFA1E4E00B99FC8 /* AppDelegate.swift in Sources */,
-				878FA4592AFA1E4E00B99FC8 /* SceneDelegate.swift in Sources */,
+				87C4A8CB2AFAC005003D2A99 /* AuthClient.swift in Sources */,
+				87C4A8D82AFAC4EF003D2A99 /* HomeRouter.swift in Sources */,
+				87C4A8CD2AFAC00F003D2A99 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +591,6 @@
 				878FA45D2AFA1E4E00B99FC8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		878FA4642AFA1E4F00B99FC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				878FA4652AFA1E4F00B99FC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,6 +712,7 @@
 		};
 		878FA4812AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,10 +722,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SILKApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,14 +732,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.astrapay-ios-sdk.SILKApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		878FA4822AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,10 +753,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SILKApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,14 +763,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.astrapay-ios-sdk.SILKApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		878FA4842AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +795,7 @@
 		};
 		878FA4852AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +816,7 @@
 		};
 		878FA4872AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +835,7 @@
 		};
 		878FA4882AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

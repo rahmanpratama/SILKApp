@@ -1,0 +1,6 @@
+framework module Pods_SILKAppTests {
+  umbrella header "Pods-SILKAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

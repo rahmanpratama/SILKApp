@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Factory (1.2.8)
+  - RxSwift (6.6.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Factory (= 1.2.8)
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Factory
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Factory: 7bffa5f381d923eabeb750fc8f7920a4bc443220
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: df78f46d5132a153c788955dab8101fdecc1cdb6
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Factory/Factory.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
