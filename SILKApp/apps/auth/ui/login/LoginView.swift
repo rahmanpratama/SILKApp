@@ -21,7 +21,7 @@ class LoginView : UIView {
     let description: SilkLabel = {
        let label = SilkLabel()
         label.setStyle(font: .gilroySemibold, size: 28, color: Color.darkBlue)
-        label.text = "Hai, Selamat Datang"
+        label.text = "Hai, Selamat Datangs"
         return label
     }()
     
