@@ -48,7 +48,7 @@ class StarterVc: UIViewController {
     
     
     func changeScreen() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 4, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
             var navigation: UINavigationController!
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             let vc = LoginVc()
