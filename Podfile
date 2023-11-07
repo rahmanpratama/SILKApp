@@ -6,10 +6,10 @@ target 'SILKApp' do
   use_frameworks!
 
   # Pods for SILKApp
-  pod 'Alamofire'
-  pod 'RxSwift'
+  pod 'Alamofire', '5.8.1'
+  pod 'RxSwift', '6.6.0'
   pod 'Factory', '1.2.8'
-  pod 'SnapKit' 
+  pod 'SnapKit', '5.6.0' 
 
   target 'SILKAppTests' do
     inherit! :search_paths

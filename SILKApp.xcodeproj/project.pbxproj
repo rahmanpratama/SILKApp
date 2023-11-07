@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EA072A8007B800B5B36477F /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */; };
-		5747042DF35516F3FB461818 /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */; };
-		63E7028670B07748C9459672 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */; };
 		878FA4572AFA1E4E00B99FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA4562AFA1E4E00B99FC8 /* AppDelegate.swift */; };
 		878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA45A2AFA1E4E00B99FC8 /* StarterVc.swift */; };
 		878FA45E2AFA1E4E00B99FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FA45C2AFA1E4E00B99FC8 /* Main.storyboard */; };
@@ -28,6 +25,9 @@
 		87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */; };
 		87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */; };
 		87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8E12AFAC608003D2A99 /* LoginVc.swift */; };
+		C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */; };
+		F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */; };
+		F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093481700D137DF711392D6 /* Pods_SILKApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.debug.xcconfig"; sourceTree = "<group>"; };
-		7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0093481700D137DF711392D6 /* Pods_SILKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		071E6D525A5BFB16A92A555D /* Pods-SILKAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.release.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		14D78CA010EDA800CD9FD7DF /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D85B2E524365D8BF64FE42A /* Pods-SILKAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		491AA9183467B521AD2A9BD5 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E184F8A9B0F45FC69E93273 /* Pods-SILKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.debug.xcconfig"; sourceTree = "<group>"; };
 		878FA4532AFA1E4E00B99FC8 /* SILKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SILKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA4562AFA1E4E00B99FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878FA45A2AFA1E4E00B99FC8 /* StarterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterVc.swift; sourceTree = "<group>"; };
@@ -74,11 +76,9 @@
 		87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkButton.swift; sourceTree = "<group>"; };
 		87C4A8E12AFAC608003D2A99 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
-		AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
-		F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKAppTests.release.xcconfig"; path = "Target Support Files/Pods-SILKAppTests/Pods-SILKAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp-SILKAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
+		FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E7028670B07748C9459672 /* Pods_SILKApp.framework in Frameworks */,
+				F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5747042DF35516F3FB461818 /* Pods_SILKAppTests.framework in Frameworks */,
+				F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,23 +102,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA072A8007B800B5B36477F /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */,
+				C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0768BA076ED33A12265700B5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AC92C727672CBE29ED9D7FD6 /* Pods_SILKApp.framework */,
-				199E5959FD6B7C80F9983336 /* Pods_SILKApp_SILKAppUITests.framework */,
-				DBFF9B3043546BC59EB37B55 /* Pods_SILKAppTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		878FA44A2AFA1E4D00B99FC8 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +117,7 @@
 				878FA4792AFA1E4F00B99FC8 /* SILKAppUITests */,
 				878FA4542AFA1E4E00B99FC8 /* Products */,
 				DADFCCC493F277FB1C328214 /* Pods */,
-				0768BA076ED33A12265700B5 /* Frameworks */,
+				9C608C57EE00756E154551E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,15 +275,25 @@
 			path = router;
 			sourceTree = "<group>";
 		};
+		9C608C57EE00756E154551E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0093481700D137DF711392D6 /* Pods_SILKApp.framework */,
+				FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */,
+				C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DADFCCC493F277FB1C328214 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */,
-				F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */,
-				F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */,
-				492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */,
-				7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */,
-				F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */,
+				7E184F8A9B0F45FC69E93273 /* Pods-SILKApp.debug.xcconfig */,
+				F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */,
+				14D78CA010EDA800CD9FD7DF /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */,
+				491AA9183467B521AD2A9BD5 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */,
+				3D85B2E524365D8BF64FE42A /* Pods-SILKAppTests.debug.xcconfig */,
+				071E6D525A5BFB16A92A555D /* Pods-SILKAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -305,11 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4802AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKApp" */;
 			buildPhases = (
-				EF7EC9924CAF636B1BFBA862 /* [CP] Check Pods Manifest.lock */,
+				4E2EB01CB0629889569824DA /* [CP] Check Pods Manifest.lock */,
 				878FA44F2AFA1E4D00B99FC8 /* Sources */,
 				878FA4502AFA1E4D00B99FC8 /* Frameworks */,
 				878FA4512AFA1E4D00B99FC8 /* Resources */,
-				6EAE13C3A7793A32DD54EDCB /* [CP] Embed Pods Frameworks */,
+				B029FF3B4352C1602F6C4FE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,7 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4832AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKAppTests" */;
 			buildPhases = (
-				9614DFF02935641AC8550FF3 /* [CP] Check Pods Manifest.lock */,
+				5452F47A59D599AD750BE144 /* [CP] Check Pods Manifest.lock */,
 				878FA4682AFA1E4F00B99FC8 /* Sources */,
 				878FA4692AFA1E4F00B99FC8 /* Frameworks */,
 				878FA46A2AFA1E4F00B99FC8 /* Resources */,
@@ -343,11 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA4862AFA1E4F00B99FC8 /* Build configuration list for PBXNativeTarget "SILKAppUITests" */;
 			buildPhases = (
-				E39970AB0E969A9A218FB370 /* [CP] Check Pods Manifest.lock */,
+				18FA3FAC3D76878FB0B906E5 /* [CP] Check Pods Manifest.lock */,
 				878FA4722AFA1E4F00B99FC8 /* Sources */,
 				878FA4732AFA1E4F00B99FC8 /* Frameworks */,
 				878FA4742AFA1E4F00B99FC8 /* Resources */,
-				3C727F5755C428982A88A117 /* [CP] Embed Pods Frameworks */,
+				FD363A688EACD20567947999 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -429,63 +429,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C727F5755C428982A88A117 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6EAE13C3A7793A32DD54EDCB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9614DFF02935641AC8550FF3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SILKAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E39970AB0E969A9A218FB370 /* [CP] Check Pods Manifest.lock */ = {
+		18FA3FAC3D76878FB0B906E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,7 +451,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF7EC9924CAF636B1BFBA862 /* [CP] Check Pods Manifest.lock */ = {
+		4E2EB01CB0629889569824DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,6 +471,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5452F47A59D599AD750BE144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SILKAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B029FF3B4352C1602F6C4FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp/Pods-SILKApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD363A688EACD20567947999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SILKApp-SILKAppUITests/Pods-SILKApp-SILKAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -712,7 +712,7 @@
 		};
 		878FA4812AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CB5EBB4CEF9594F20D2BC4 /* Pods-SILKApp.debug.xcconfig */;
+			baseConfigurationReference = 7E184F8A9B0F45FC69E93273 /* Pods-SILKApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -743,7 +743,7 @@
 		};
 		878FA4822AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F19D0AC17D91532C88179251 /* Pods-SILKApp.release.xcconfig */;
+			baseConfigurationReference = F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -774,7 +774,7 @@
 		};
 		878FA4842AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F5D7E83DB54A5A7289B7EAD /* Pods-SILKAppTests.debug.xcconfig */;
+			baseConfigurationReference = 3D85B2E524365D8BF64FE42A /* Pods-SILKAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -795,7 +795,7 @@
 		};
 		878FA4852AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1EA2316308B5A0E16FE86E2 /* Pods-SILKAppTests.release.xcconfig */;
+			baseConfigurationReference = 071E6D525A5BFB16A92A555D /* Pods-SILKAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -816,7 +816,7 @@
 		};
 		878FA4872AFA1E4F00B99FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9791FAFEFB116BAE1328CDA /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 14D78CA010EDA800CD9FD7DF /* Pods-SILKApp-SILKAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -835,7 +835,7 @@
 		};
 		878FA4882AFA1E4F00B99FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492456D793854E98DFFEB670 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */;
+			baseConfigurationReference = 491AA9183467B521AD2A9BD5 /* Pods-SILKApp-SILKAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
