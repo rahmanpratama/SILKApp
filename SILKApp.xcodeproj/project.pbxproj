@@ -50,6 +50,8 @@
 		87C4A91D2AFAE892003D2A99 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C4A9092AFAE892003D2A99 /* Gilroy-Medium.ttf */; };
 		87C4A91E2AFAE892003D2A99 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C4A90A2AFAE892003D2A99 /* Gilroy-UltraLight.ttf */; };
 		87C4A9222AFAEAE6003D2A99 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9212AFAEAE6003D2A99 /* Color.swift */; };
+		87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */; };
+		87C4A92A2AFB70A1003D2A99 /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */; };
 		C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */; };
 		F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */; };
 		F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093481700D137DF711392D6 /* Pods_SILKApp.framework */; };
@@ -126,6 +128,8 @@
 		87C4A9092AFAE892003D2A99 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		87C4A90A2AFAE892003D2A99 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
 		87C4A9212AFAEAE6003D2A99 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkInputField.swift; sourceTree = "<group>"; };
+		87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
 		C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
 		FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +245,7 @@
 				87C4A8EC2AFAE044003D2A99 /* SilkLabel.swift */,
 				87C4A8EE2AFAE19B003D2A99 /* FontLibrary.swift */,
 				87C4A9212AFAEAE6003D2A99 /* Color.swift */,
+				87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 		87C4A8C22AFABF35003D2A99 /* apps */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A9272AFB708C003D2A99 /* helper */,
 				87C4A8D12AFAC4A1003D2A99 /* home */,
 				878FA48C2AFA34B600B99FC8 /* components */,
 				878FA48A2AFA347900B99FC8 /* auth */,
@@ -372,6 +378,22 @@
 				87C4A8F32AFAE882003D2A99 /* ProximaNova-Semibold.ttf */,
 			);
 			path = proximaNova;
+			sourceTree = "<group>";
+		};
+		87C4A9272AFB708C003D2A99 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9282AFB7090003D2A99 /* preview */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		87C4A9282AFB7090003D2A99 /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */,
+			);
+			path = preview;
 			sourceTree = "<group>";
 		};
 		9C608C57EE00756E154551E4 /* Frameworks */ = {
@@ -662,8 +684,10 @@
 				87C4A8EF2AFAE19B003D2A99 /* FontLibrary.swift in Sources */,
 				878FA4612AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld in Sources */,
 				878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */,
+				87C4A92A2AFB70A1003D2A99 /* UIViewPreview.swift in Sources */,
 				87C4A9222AFAEAE6003D2A99 /* Color.swift in Sources */,
 				87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */,
+				87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */,
 				87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */,
 				87C4A8C82AFABFAB003D2A99 /* AuthRouter.swift in Sources */,
 				87C4A8D02AFAC377003D2A99 /* AuthContainer.swift in Sources */,
@@ -855,7 +879,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.astrapay-ios-sdk.SILKApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.SILKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -888,7 +912,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.astrapay-ios-sdk.SILKApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.SILKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
