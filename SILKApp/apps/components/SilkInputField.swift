@@ -12,6 +12,7 @@ class SilkInputField: UIView {
     let textfield: UITextField = {
        let textfield = UITextField()
         textfield.font = UIFont.font(size: 12, fontType: .proximaNovaSemibold)
+        textfield.autocapitalizationType = .none
         textfield.textColor = Color.darkBlue
         return textfield
     }()
@@ -37,8 +38,10 @@ class SilkInputField: UIView {
       let icon = UIImageView()
         icon.image = UIImage(named: "fluent_eye")
         icon.contentMode = .scaleAspectFit
+        icon.isUserInteractionEnabled = true
         return icon
     }()
+    
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -83,6 +86,8 @@ class SilkInputField: UIView {
         
         rightIcon.isHidden = true
         setStyle(title: "Title", placeholder: "PlaceHolder")
+        
+
     }
     
     func setStyle(title: String, placeholder: String) {

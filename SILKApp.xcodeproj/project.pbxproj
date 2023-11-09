@@ -21,7 +21,6 @@
 		87C4A8D02AFAC377003D2A99 /* AuthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8CF2AFAC377003D2A99 /* AuthContainer.swift */; };
 		87C4A8D82AFAC4EF003D2A99 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8D72AFAC4EF003D2A99 /* HomeRouter.swift */; };
 		87C4A8DA2AFAC501003D2A99 /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8D92AFAC501003D2A99 /* HomeContainer.swift */; };
-		87C4A8DC2AFAC521003D2A99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DB2AFAC521003D2A99 /* HomeView.swift */; };
 		87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */; };
 		87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */; };
 		87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A8E12AFAC608003D2A99 /* LoginVc.swift */; };
@@ -52,6 +51,21 @@
 		87C4A9222AFAEAE6003D2A99 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9212AFAEAE6003D2A99 /* Color.swift */; };
 		87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */; };
 		87C4A92A2AFB70A1003D2A99 /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */; };
+		87C4A9312AFC887E003D2A99 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9302AFC887E003D2A99 /* UIViewExtension.swift */; };
+		87C4A9332AFC8B11003D2A99 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9322AFC8B11003D2A99 /* BaseViewController.swift */; };
+		87C4A9362AFC8C1E003D2A99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9352AFC8C1E003D2A99 /* HomeView.swift */; };
+		87C4A9382AFC8D9F003D2A99 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9372AFC8D9F003D2A99 /* HomeVc.swift */; };
+		87C4A93C2AFD312B003D2A99 /* SilkSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A93B2AFD312B003D2A99 /* SilkSearchBar.swift */; };
+		87C4A93F2AFD3C88003D2A99 /* HomeProductCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A93E2AFD3C88003D2A99 /* HomeProductCollectionView.swift */; };
+		87C4A9412AFD3DEF003D2A99 /* ProductCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9402AFD3DEF003D2A99 /* ProductCategoryCell.swift */; };
+		87C4A9432AFD5807003D2A99 /* SilkSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9422AFD5807003D2A99 /* SilkSegmentedControl.swift */; };
+		87C4A9462AFD6E4E003D2A99 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9452AFD6E4E003D2A99 /* RegisterView.swift */; };
+		87C4A9482AFD74AB003D2A99 /* RegisterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9472AFD74AB003D2A99 /* RegisterVc.swift */; };
+		87C4A94E2AFD7904003D2A99 /* httpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A94D2AFD7904003D2A99 /* httpClient.swift */; };
+		87C4A9502AFD7A2D003D2A99 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A94F2AFD7A2D003D2A99 /* ApiResult.swift */; };
+		87C4A9522AFD7A47003D2A99 /* ApiErrorDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9512AFD7A47003D2A99 /* ApiErrorDto.swift */; };
+		87C4A9552AFD7C5E003D2A99 /* LoginDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */; };
+		87C4A9572AFD7D6B003D2A99 /* LoginVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9562AFD7D6B003D2A99 /* LoginVm.swift */; };
 		C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */; };
 		F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */; };
 		F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093481700D137DF711392D6 /* Pods_SILKApp.framework */; };
@@ -99,7 +113,6 @@
 		87C4A8CF2AFAC377003D2A99 /* AuthContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainer.swift; sourceTree = "<group>"; };
 		87C4A8D72AFAC4EF003D2A99 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		87C4A8D92AFAC501003D2A99 /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
-		87C4A8DB2AFAC521003D2A99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		87C4A8DF2AFAC5B4003D2A99 /* SilkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkButton.swift; sourceTree = "<group>"; };
 		87C4A8E12AFAC608003D2A99 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
@@ -130,6 +143,21 @@
 		87C4A9212AFAEAE6003D2A99 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkInputField.swift; sourceTree = "<group>"; };
 		87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
+		87C4A9302AFC887E003D2A99 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		87C4A9322AFC8B11003D2A99 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		87C4A9352AFC8C1E003D2A99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../auth/ui/home/HomeView.swift; sourceTree = "<group>"; };
+		87C4A9372AFC8D9F003D2A99 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
+		87C4A93B2AFD312B003D2A99 /* SilkSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkSearchBar.swift; sourceTree = "<group>"; };
+		87C4A93E2AFD3C88003D2A99 /* HomeProductCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCollectionView.swift; sourceTree = "<group>"; };
+		87C4A9402AFD3DEF003D2A99 /* ProductCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryCell.swift; sourceTree = "<group>"; };
+		87C4A9422AFD5807003D2A99 /* SilkSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkSegmentedControl.swift; sourceTree = "<group>"; };
+		87C4A9452AFD6E4E003D2A99 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		87C4A9472AFD74AB003D2A99 /* RegisterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVc.swift; sourceTree = "<group>"; };
+		87C4A94D2AFD7904003D2A99 /* httpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = httpClient.swift; sourceTree = "<group>"; };
+		87C4A94F2AFD7A2D003D2A99 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		87C4A9512AFD7A47003D2A99 /* ApiErrorDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorDto.swift; sourceTree = "<group>"; };
+		87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDto.swift; sourceTree = "<group>"; };
+		87C4A9562AFD7D6B003D2A99 /* LoginVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVm.swift; sourceTree = "<group>"; };
 		C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
 		FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +247,7 @@
 		878FA48A2AFA347900B99FC8 /* auth */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A9532AFD7C4C003D2A99 /* dto */,
 				87C4A8CE2AFAC34F003D2A99 /* ui */,
 				87C4A8C62AFABF84003D2A99 /* client */,
 				87C4A8C52AFABF80003D2A99 /* service */,
@@ -233,6 +262,7 @@
 			children = (
 				87C4A8DD2AFAC53F003D2A99 /* LoginView.swift */,
 				87C4A8E12AFAC608003D2A99 /* LoginVc.swift */,
+				87C4A9562AFD7D6B003D2A99 /* LoginVm.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -246,6 +276,8 @@
 				87C4A8EE2AFAE19B003D2A99 /* FontLibrary.swift */,
 				87C4A9212AFAEAE6003D2A99 /* Color.swift */,
 				87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */,
+				87C4A93B2AFD312B003D2A99 /* SilkSearchBar.swift */,
+				87C4A9422AFD5807003D2A99 /* SilkSegmentedControl.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -253,9 +285,9 @@
 		87C4A8C22AFABF35003D2A99 /* apps */ = {
 			isa = PBXGroup;
 			children = (
+				878FA48C2AFA34B600B99FC8 /* components */,
 				87C4A9272AFB708C003D2A99 /* helper */,
 				87C4A8D12AFAC4A1003D2A99 /* home */,
-				878FA48C2AFA34B600B99FC8 /* components */,
 				878FA48A2AFA347900B99FC8 /* auth */,
 			);
 			path = apps;
@@ -296,6 +328,7 @@
 		87C4A8CE2AFAC34F003D2A99 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A9442AFD6E44003D2A99 /* register */,
 				878FA48B2AFA34AA00B99FC8 /* login */,
 			);
 			path = ui;
@@ -314,7 +347,9 @@
 		87C4A8D22AFAC4B4003D2A99 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				87C4A8DB2AFAC521003D2A99 /* HomeView.swift */,
+				87C4A93D2AFD3C74003D2A99 /* component */,
+				87C4A9352AFC8C1E003D2A99 /* HomeView.swift */,
+				87C4A9372AFC8D9F003D2A99 /* HomeVc.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -383,7 +418,10 @@
 		87C4A9272AFB708C003D2A99 /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A94C2AFD78F4003D2A99 /* httpClient */,
 				87C4A9282AFB7090003D2A99 /* preview */,
+				87C4A9302AFC887E003D2A99 /* UIViewExtension.swift */,
+				87C4A9322AFC8B11003D2A99 /* BaseViewController.swift */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -394,6 +432,42 @@
 				87C4A9292AFB70A1003D2A99 /* UIViewPreview.swift */,
 			);
 			path = preview;
+			sourceTree = "<group>";
+		};
+		87C4A93D2AFD3C74003D2A99 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A93E2AFD3C88003D2A99 /* HomeProductCollectionView.swift */,
+				87C4A9402AFD3DEF003D2A99 /* ProductCategoryCell.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		87C4A9442AFD6E44003D2A99 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9452AFD6E4E003D2A99 /* RegisterView.swift */,
+				87C4A9472AFD74AB003D2A99 /* RegisterVc.swift */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		87C4A94C2AFD78F4003D2A99 /* httpClient */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A94D2AFD7904003D2A99 /* httpClient.swift */,
+				87C4A94F2AFD7A2D003D2A99 /* ApiResult.swift */,
+				87C4A9512AFD7A47003D2A99 /* ApiErrorDto.swift */,
+			);
+			path = httpClient;
+			sourceTree = "<group>";
+		};
+		87C4A9532AFD7C4C003D2A99 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */,
+			);
+			path = dto;
 			sourceTree = "<group>";
 		};
 		9C608C57EE00756E154551E4 /* Frameworks */ = {
@@ -680,23 +754,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				87C4A8DA2AFAC501003D2A99 /* HomeContainer.swift in Sources */,
+				87C4A9382AFC8D9F003D2A99 /* HomeVc.swift in Sources */,
+				87C4A93C2AFD312B003D2A99 /* SilkSearchBar.swift in Sources */,
 				87C4A8ED2AFAE044003D2A99 /* SilkLabel.swift in Sources */,
+				87C4A9572AFD7D6B003D2A99 /* LoginVm.swift in Sources */,
 				87C4A8EF2AFAE19B003D2A99 /* FontLibrary.swift in Sources */,
 				878FA4612AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld in Sources */,
 				878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */,
+				87C4A9332AFC8B11003D2A99 /* BaseViewController.swift in Sources */,
 				87C4A92A2AFB70A1003D2A99 /* UIViewPreview.swift in Sources */,
 				87C4A9222AFAEAE6003D2A99 /* Color.swift in Sources */,
+				87C4A94E2AFD7904003D2A99 /* httpClient.swift in Sources */,
 				87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */,
+				87C4A9502AFD7A2D003D2A99 /* ApiResult.swift in Sources */,
 				87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */,
 				87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */,
+				87C4A9432AFD5807003D2A99 /* SilkSegmentedControl.swift in Sources */,
 				87C4A8C82AFABFAB003D2A99 /* AuthRouter.swift in Sources */,
+				87C4A9462AFD6E4E003D2A99 /* RegisterView.swift in Sources */,
 				87C4A8D02AFAC377003D2A99 /* AuthContainer.swift in Sources */,
-				87C4A8DC2AFAC521003D2A99 /* HomeView.swift in Sources */,
+				87C4A9482AFD74AB003D2A99 /* RegisterVc.swift in Sources */,
+				87C4A9312AFC887E003D2A99 /* UIViewExtension.swift in Sources */,
+				87C4A9362AFC8C1E003D2A99 /* HomeView.swift in Sources */,
 				87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */,
+				87C4A9522AFD7A47003D2A99 /* ApiErrorDto.swift in Sources */,
 				878FA4572AFA1E4E00B99FC8 /* AppDelegate.swift in Sources */,
+				87C4A9412AFD3DEF003D2A99 /* ProductCategoryCell.swift in Sources */,
+				87C4A93F2AFD3C88003D2A99 /* HomeProductCollectionView.swift in Sources */,
 				87C4A8CB2AFAC005003D2A99 /* AuthClient.swift in Sources */,
 				87C4A8D82AFAC4EF003D2A99 /* HomeRouter.swift in Sources */,
 				87C4A8CD2AFAC00F003D2A99 /* AuthService.swift in Sources */,
+				87C4A9552AFD7C5E003D2A99 /* LoginDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

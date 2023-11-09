@@ -9,6 +9,14 @@ import Foundation
 import UIKit
 
 class SilkButton : UIButton {
+    
+    let rightIcon: UIImageView = {
+       let image = UIImageView()
+        image.image = UIImage(named: "arrow_right")
+        image.contentMode = .scaleAspectFit
+        return image
+    }()
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupView()
@@ -19,12 +27,19 @@ class SilkButton : UIButton {
         setupView()
     }
     func setupView() {
-        self.setHeight(48)
+        self.setHeight()
         self.backgroundColor = Color.darkBlue
         self.layer.cornerRadius = 8
         self.setTitleColor(.white, for: .normal)
         self.titleLabel?.font = UIFont.font(size: 16, fontType: .gilroySemibold)
+        self.addSubview(rightIcon)
         
+        rightIcon.snp.makeConstraints({ make in
+            make.centerY.equalToSuperview()
+            make.right.equalToSuperview()
+            make.height.equalToSuperview().multipliedBy(0.5)
+        })
+        rightIcon.isHidden = true
         self.addTarget(self, action: #selector(buttonPressed), for: .touchDown)
         self.addTarget(self, action: #selector(buttonReleased), for: [.touchCancel, .touchUpInside, .touchUpOutside, .touchDragExit])
     }
@@ -39,9 +54,22 @@ class SilkButton : UIButton {
         self.alpha = 1
     }
     
-    func setHeight(_ height: CGFloat) {
+    func setHeight(_ height: CGFloat = 48) {
         self.snp.updateConstraints({ make in
             make.height.equalTo(height)
+        })
+    }
+    
+    func setRightIcon(icon: UIImage? = UIImage(named: "arrow_right")) {
+        rightIcon.image = icon
+        rightIcon.isHidden = false
+    }
+    
+
+    
+    func setTitleAlignLeft() {
+        self.titleLabel?.snp.makeConstraints({ make in
+            make.leading.equalToSuperview()
         })
     }
 }

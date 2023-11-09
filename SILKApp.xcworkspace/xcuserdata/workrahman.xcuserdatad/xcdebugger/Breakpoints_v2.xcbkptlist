@@ -65,6 +65,21 @@
                   endingLineNumber = "55"
                   offsetFromSymbolStart = "328">
                </Location>
+               <Location
+                  uuid = "0C246593-527C-4F5B-B82E-0EDDB5EE4810 - be7f82c7f4c557af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SILKApp.StarterVc.changeScreen() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/StarterVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "328">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -81,6 +96,150 @@
             startingLineNumber = "56"
             endingLineNumber = "56"
             landmarkName = "changeScreen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C205513B-0AA2-45DF-B9F4-CF5138773049 - be7f82c7f4c5504a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SILKApp.StarterVc.changeScreen() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/StarterVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "C205513B-0AA2-45DF-B9F4-CF5138773049 - be7f82c7f4c5506d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SILKApp.StarterVc.changeScreen() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/StarterVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4293943-4A66-4D64-B734-440934EDD922"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "setupSelection()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEB68892-F9AF-479B-BC29-821B9F45E6E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DCDBD46-3315-4634-8158-70D59BADB6AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "9DCDBD46-3315-4634-8158-70D59BADB6AA - 5016f9243da5518f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.ProductCategoryCell.isSelected.getter : Swift.Bool"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "9DCDBD46-3315-4634-8158-70D59BADB6AA - c022ba1e86d08993"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.ProductCategoryCell.isSelected.setter : Swift.Bool"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62741035-F2A4-4F40-85D1-0FF90F080596"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1C77A36-0078-4CB3-B554-7502DB894CE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/component/HomeProductCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

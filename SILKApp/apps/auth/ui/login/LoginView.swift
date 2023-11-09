@@ -9,8 +9,16 @@ import Foundation
 import UIKit
 import SnapKit
 
+protocol LoginViewDelegate : AnyObject {
+    func didButtonPressed()
+    func didPressRegisterNow()
+}
+
 class LoginView : UIView {
 
+    
+    weak var delegate: LoginViewDelegate?
+    
     let welcomeLabel: SilkLabel = {
         let label = SilkLabel()
         label.setStyle(font: .gilroySemibold, size: 28, color: Color.darkBlue)
@@ -56,12 +64,14 @@ class LoginView : UIView {
         field.setStyle(title: "Password", placeholder: "Masukan password anda")
         field.textfield.isSecureTextEntry = true
         field.showRightIcon(image: UIImage(named: "fluent_eye"))
+        
         return field
     }()
     
     lazy var button: SilkButton = {
        let button = SilkButton()
         button.setTitle("Login", for: .normal)
+        button.setRightIcon(icon: UIImage(named: "arrow_right"))
         return button
     }()
     
@@ -89,6 +99,12 @@ class LoginView : UIView {
         return label
     }()
     
+    let warningLabel: SilkLabel = {
+      let label = SilkLabel()
+        label.setStyle(font: .proximaNovaRegular, size: 12, color: Color.red)
+        label.text = "Password harap diisi dengan benar"
+        return label
+    }()
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -112,6 +128,8 @@ class LoginView : UIView {
         addSubview(passwordInput)
         addSubview(button)
         addSubview(copyrightLabel)
+        // temporary
+        addSubview(warningLabel)
         
         welcomeLabel.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(20)
@@ -138,6 +156,13 @@ class LoginView : UIView {
             make.top.equalTo(emailInput.snp.bottom).offset(40)
         }
         
+        warningLabel.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview().inset(24)
+            make.top.equalTo(passwordInput.snp.bottom).offset(8)
+        }
+        
+        warningLabel.isHidden = true
+        
         button.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(20)
             make.top.equalTo(passwordInput.snp.bottom).offset(40)
@@ -160,6 +185,23 @@ class LoginView : UIView {
             make.centerX.equalToSuperview()
             make.top.equalTo(textStackView.snp.bottom).offset(12)
         }
+        
+        button.addTapGestureRecognizer(action: {
+            self.delegate?.didButtonPressed()
+        })
+        
+        registerNowLabel.addTapGestureRecognizer(action: {
+            self.delegate?.didPressRegisterNow()
+        })
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        passwordInput.rightIcon.isUserInteractionEnabled = true
+        passwordInput.rightIcon.addGestureRecognizer(tapGesture)
+        
+    }
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        passwordInput.textfield.isSecureTextEntry.toggle()
         
     }
     
