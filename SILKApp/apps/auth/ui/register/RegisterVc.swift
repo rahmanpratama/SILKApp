@@ -19,6 +19,9 @@ class RegisterVc : BaseViewController {
     override func initComponent() {
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
     
     override func initEventListener() {
         let view = self.view as! RegisterView

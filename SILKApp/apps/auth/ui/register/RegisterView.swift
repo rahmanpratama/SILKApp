@@ -93,7 +93,7 @@ class RegisterView : UIView {
     
     lazy var verifyPasswordInput: SilkInputField = {
        let field = SilkInputField()
-        field.setStyle(title: "Password", placeholder: "Konfirmasi password anda")
+        field.setStyle(title: "Konfirmasi Password", placeholder: "Konfirmasi password anda")
         field.textfield.isSecureTextEntry = true
         field.showRightIcon(image: UIImage(named: "fluent_eye"))
         return field

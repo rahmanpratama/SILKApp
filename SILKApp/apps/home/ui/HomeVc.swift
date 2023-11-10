@@ -34,7 +34,9 @@ class HomeVc : BaseViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        let view = self.view as! HomeView
         setupCustomHomeNavBar()
+        view.categoryServiceType.autoSelectfirstIndex()
     }
     
     func setupCustomHomeNavBar() {

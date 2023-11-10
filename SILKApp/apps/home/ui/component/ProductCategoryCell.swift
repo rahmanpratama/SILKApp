@@ -17,7 +17,8 @@ class ProductCategoryCell: UICollectionViewCell {
         label.setStyle(font: .proximaNovaSemibold, size: 12, color: Color.darkBlue)
         return label
     }()
-    var backgroundStyle: UIColor = Color.darkBlue
+    var backgroundStyle: UIColor = Color.darkBlue 
+    var fontStyle: UIColor = .white
     
     let container: UIView = {
         let container = UIView()
@@ -76,7 +77,7 @@ class ProductCategoryCell: UICollectionViewCell {
         if isSelected {
             // Update cell appearance when selected
             self.container.backgroundColor = backgroundStyle
-            self.titleLabel.textColor = .white
+            self.titleLabel.textColor = fontStyle
         } else {
             // Update cell appearance when deselected
             self.container.backgroundColor = .white

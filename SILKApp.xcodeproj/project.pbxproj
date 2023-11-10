@@ -70,6 +70,7 @@
 		87C4A95D2AFD9203003D2A99 /* HomeSidebarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A95C2AFD9203003D2A99 /* HomeSidebarVc.swift */; };
 		87C4A9622AFDD27B003D2A99 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9612AFDD27B003D2A99 /* ProfileView.swift */; };
 		87C4A9642AFDD285003D2A99 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9632AFDD285003D2A99 /* ProfileVc.swift */; };
+		87C4A9682AFE0760003D2A99 /* HomeServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9672AFE0760003D2A99 /* HomeServiceView.swift */; };
 		C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */; };
 		F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */; };
 		F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093481700D137DF711392D6 /* Pods_SILKApp.framework */; };
@@ -166,6 +167,7 @@
 		87C4A95C2AFD9203003D2A99 /* HomeSidebarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSidebarVc.swift; sourceTree = "<group>"; };
 		87C4A9612AFDD27B003D2A99 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		87C4A9632AFDD285003D2A99 /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
+		87C4A9672AFE0760003D2A99 /* HomeServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceView.swift; sourceTree = "<group>"; };
 		C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
 		FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,6 +289,7 @@
 				87C4A93B2AFD312B003D2A99 /* SilkSearchBar.swift */,
 				87C4A9422AFD5807003D2A99 /* SilkSegmentedControl.swift */,
 				87C4A9582AFD8D85003D2A99 /* SilkNavigationBar.swift */,
+				87C4A9672AFE0760003D2A99 /* HomeServiceView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -798,6 +801,7 @@
 				87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */,
 				87C4A9502AFD7A2D003D2A99 /* ApiResult.swift in Sources */,
 				87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */,
+				87C4A9682AFE0760003D2A99 /* HomeServiceView.swift in Sources */,
 				87C4A8E22AFAC608003D2A99 /* LoginVc.swift in Sources */,
 				87C4A9432AFD5807003D2A99 /* SilkSegmentedControl.swift in Sources */,
 				87C4A8C82AFABFAB003D2A99 /* AuthRouter.swift in Sources */,

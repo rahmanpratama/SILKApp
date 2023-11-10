@@ -206,6 +206,9 @@ class HomeView : UIView {
     // MARK: - Product List
     let productView: HomeProductCollectionView = {
         let view = HomeProductCollectionView()
+        view.categoryList = ["All Product", "Layanan Kesehatan", "Alat Kesehatan"]
+        view.listCategory.reloadData()
+        view.autoSelectfirstIndex()
         return view
     }()
     
@@ -231,21 +234,45 @@ class HomeView : UIView {
         return label
     }()
 
-    lazy var categoryServiceType: SilkSegmentedControl = {
-       let view = SilkSegmentedControl(items: ["Satuan", "Paket Pemeriksaan"])
-
-        let attributes: [NSAttributedString.Key: Any] = [
-            NSAttributedString.Key.font: UIFont.font(size: 14, fontType: .proximaNovaSemibold),
-            NSAttributedString.Key.foregroundColor: Color.darkBlue
-               ]
-        view.setTitleTextAttributes(attributes, for: .normal)
+    lazy var categoryServiceType: HomeProductCollectionView = {
+       let view = HomeProductCollectionView()
+        view.categoryList = ["Satuan", "Paket Pemeriksaan"]
+        view.backgroundCellStyle = Color.cyan
+        view.fontCellStyle = Color.darkBlue
+        view.listCategory.reloadData()
         
-        view.apportionsSegmentWidthsByContent = true
-    
         return view
     }()
     
+    lazy var productservice1: HomeServiceView = {
+       let view = HomeServiceView()
+        view.clipsToBounds = true
+        view.layer.borderColor = UIColor.lightGray.cgColor
+        view.layer.borderWidth = 0.2
+        view.layer.cornerRadius = 16
+        return view
+        return view
         
+    }()
+    
+    lazy var productservice2: HomeServiceView = {
+       let view = HomeServiceView()
+        view.image.image = UIImage(named: "imagebuilding2")
+        view.clipsToBounds = true
+        view.layer.borderColor = UIColor.lightGray.cgColor
+        view.layer.borderWidth = 0.2
+        view.layer.cornerRadius = 16
+        return view
+        
+    }()
+    
+    let bottomBar: UIImageView = {
+        let view = UIImageView()
+        view.contentMode = .scaleAspectFit
+        view.image = UIImage(named: "bottombar")
+        view.layer.cornerRadius = 16
+        return view
+    }()
     
     // MARK: - SetupView
     
@@ -416,7 +443,7 @@ class HomeView : UIView {
         })
         
         searchBar.snp.makeConstraints({ make in
-            make.top.equalTo(lastBannerBackground.snp.bottom).offset(40)
+            make.top.equalTo(lastBannerBackground.snp.bottom).offset(32)
             make.trailing.equalTo(lastBannerBackground)
             make.leading.equalTo(filterContainer.snp.trailing).offset(30)
             make.width.equalTo(200)
@@ -425,7 +452,7 @@ class HomeView : UIView {
         
         scrollView.addSubview(productView)
         productView.snp.makeConstraints({ make in
-            make.top.equalTo(searchBar.snp.bottom).offset(24)
+            make.top.equalTo(searchBar.snp.bottom).offset(16)
             make.leading.trailing.equalTo(safeAreaLayoutGuide)
         })
         
@@ -433,7 +460,7 @@ class HomeView : UIView {
         scrollView.addSubview(product2)
         
         product1.snp.makeConstraints({ make in
-            make.top.equalTo(productView.snp.bottom).offset(20)
+            make.top.equalTo(productView.snp.bottom).offset(12)
             make.leading.equalTo(safeAreaLayoutGuide)
             make.height.equalTo(200)
             make.width.equalTo(200)
@@ -441,7 +468,7 @@ class HomeView : UIView {
         })
         
         product2.snp.makeConstraints({ make in
-            make.top.equalTo(productView.snp.bottom).offset(20)
+            make.top.equalTo(productView.snp.bottom).offset(12)
             make.leading.equalTo(product1.snp.trailing).offset(-20)
             make.height.equalTo(200)
             make.width.equalTo(200)
@@ -451,17 +478,40 @@ class HomeView : UIView {
         scrollView.addSubview(servicetypetitle)
         scrollView.addSubview(categoryServiceType)
         servicetypetitle.snp.makeConstraints({ make in
-            make.top.equalTo(product1.snp.bottom).offset(20)
+            make.top.equalTo(product1.snp.bottom).offset(12)
             make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(20)
         })
         
         categoryServiceType.snp.makeConstraints({ make in
-            make.top.equalTo(servicetypetitle.snp.bottom).offset(20)
-            make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(20)
-      
-            make.bottom.equalToSuperview()
+            make.top.equalTo(servicetypetitle.snp.bottom).offset(12)
+            make.leading.trailing.equalTo(safeAreaLayoutGuide)
         })
         
+        // for mockups only please use tableview
+        scrollView.addSubview(productservice1)
+        scrollView.addSubview(productservice2)
+        
+        productservice1.snp.makeConstraints({ make in
+            make.top.equalTo(categoryServiceType.snp.bottom).offset(12)
+            make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(20)
+            make.height.equalTo(170)
+        })
+        
+        productservice2.snp.makeConstraints({ make in
+            make.top.equalTo(productservice1.snp.bottom).offset(20)
+            make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(20)
+            make.height.equalTo(170)
+            
+        })
+        scrollView.addSubview(bottomBar)
+        bottomBar.snp.makeConstraints({ make in
+            make.top.equalTo(productservice2.snp.bottom).offset(30)
+            make.leading.trailing.equalTo(safeAreaLayoutGuide)
+//            make.top.equalTo(container.snp.bottom).offset(-16)
+            make.bottom.equalToSuperview()
+            make.height.equalTo(110)
+            
+        })
         
         
     }

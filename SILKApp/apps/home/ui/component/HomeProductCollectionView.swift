@@ -12,8 +12,9 @@ import SnapKit
 class HomeProductCollectionView: UIView{
     
     
-    var backgroundCellStyle: UIColor = Color.darkBlue
-    var categoryList: [String] = ["All Product", "Layanan Kesehatan", "Alat Kesehatan"]
+    var backgroundCellStyle: UIColor = Color.darkBlue 
+    var fontCellStyle: UIColor = .white
+    var categoryList: [String] = []
     let listCategory: UICollectionView = {
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.minimumInteritemSpacing = 10
@@ -50,8 +51,14 @@ class HomeProductCollectionView: UIView{
         
         listCategory.dataSource = self
         listCategory.delegate = self
-        let selectedIndexPath = IndexPath(item: 0, section: 0)
-        listCategory.selectItem(at: selectedIndexPath, animated: false, scrollPosition: [])
+        
+    }
+    func autoSelectfirstIndex(){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
+            let selectedIndexPath = IndexPath(item: 0, section: 0)
+            self.listCategory.selectItem(at: selectedIndexPath, animated: true, scrollPosition: [])
+
+        })
     }
 }
 
@@ -70,6 +77,7 @@ extension HomeProductCollectionView: UICollectionViewDataSource, UICollectionVie
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "categoryCell", for: indexPath) as! ProductCategoryCell
         cell.titleLabel.text = categoryList[indexPath.row]
         cell.backgroundStyle = backgroundCellStyle
+        cell.fontStyle = fontCellStyle
         return cell
     }
     

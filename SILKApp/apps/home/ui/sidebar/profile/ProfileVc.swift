@@ -15,4 +15,8 @@ class ProfileVc : BaseViewController {
         view = ProfileView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        let view = self.view as! ProfileView
+        view.categoryType.autoSelectfirstIndex()
+    }
 }

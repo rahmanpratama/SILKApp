@@ -15,16 +15,12 @@ class ProfileView: UIView {
     
     let customNavBar = SilkNavigationBar()
     
-    lazy var categoryType: SilkSegmentedControl = {
-       let view = SilkSegmentedControl(items: ["Profile Saya", "Pengaturan"])
-
-        let attributes: [NSAttributedString.Key: Any] = [
-            NSAttributedString.Key.font: UIFont.font(size: 14, fontType: .proximaNovaSemibold),
-            NSAttributedString.Key.foregroundColor: Color.darkBlue
-               ]
-        view.setTitleTextAttributes(attributes, for: .normal)
-        
-        view.apportionsSegmentWidthsByContent = true
+    lazy var categoryType: HomeProductCollectionView = {
+        let view = HomeProductCollectionView()
+         view.categoryList = ["Satuan", "Paket Pemeriksaan"]
+         view.backgroundCellStyle = Color.cyan
+         view.fontCellStyle = Color.darkBlue
+         view.listCategory.reloadData()
     
         return view
     }()
@@ -260,7 +256,7 @@ class ProfileView: UIView {
         })
         
         categoryType.snp.makeConstraints({ make in
-            make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(54)
+            make.leading.trailing.equalTo(safeAreaLayoutGuide).inset(40)
             make.top.equalToSuperview().offset(32)
         })
         
@@ -367,6 +363,7 @@ class ProfileView: UIView {
         infoIcon.snp.makeConstraints({ make in
             make.leading.equalToSuperview().offset(20)
             make.top.equalTo(ktpInput.snp.bottom).offset(32)
+            make.height.width.equalTo(16)
            
         })
         
