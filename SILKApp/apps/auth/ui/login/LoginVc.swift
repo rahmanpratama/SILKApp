@@ -25,7 +25,7 @@ class LoginVc : BaseViewController {
     override func initObserver() {
         viewModel.liveSuccessLogin.subscribe{ data in
             let view = self.view as! LoginView
-            self.router.navigateToHome()
+          
         }.disposed(by: self.disposeBag)
         
         viewModel.liveFailedLogin.subscribe{ data in
@@ -48,11 +48,13 @@ extension LoginVc: LoginViewDelegate {
     
     func didButtonPressed() {
         let view = self.view as! LoginView
-        let email = view.emailInput.textfield.text ?? ""
-        let password = view.passwordInput.textfield.text ?? ""
-        self.viewModel.requestLogin(email: email, password: password)
-//        self.viewModel.requestOtp(email: "eve.holt@reqres.in", password: "cityslicka")
-//        self.viewModel.requestOtp(email: "peter@klaven", password: "")
+//        let email = view.emailInput.textfield.text ?? ""
+//        let password = view.passwordInput.textfield.text ?? ""
+//        self.viewModel.requestLogin(email: email, password: password)
+////        self.viewModel.requestOtp(email: "eve.holt@reqres.in", password: "cityslicka")
+////        self.viewModel.requestOtp(email: "peter@klaven", password: "")
+        
+        self.router.navigateToHome()
       
     }
 }

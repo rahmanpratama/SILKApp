@@ -66,6 +66,10 @@
 		87C4A9522AFD7A47003D2A99 /* ApiErrorDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9512AFD7A47003D2A99 /* ApiErrorDto.swift */; };
 		87C4A9552AFD7C5E003D2A99 /* LoginDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */; };
 		87C4A9572AFD7D6B003D2A99 /* LoginVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9562AFD7D6B003D2A99 /* LoginVm.swift */; };
+		87C4A9592AFD8D85003D2A99 /* SilkNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9582AFD8D85003D2A99 /* SilkNavigationBar.swift */; };
+		87C4A95D2AFD9203003D2A99 /* HomeSidebarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A95C2AFD9203003D2A99 /* HomeSidebarVc.swift */; };
+		87C4A9622AFDD27B003D2A99 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9612AFDD27B003D2A99 /* ProfileView.swift */; };
+		87C4A9642AFDD285003D2A99 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4A9632AFDD285003D2A99 /* ProfileVc.swift */; };
 		C5C4449999F4BE4D59E4E812 /* Pods_SILKApp_SILKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */; };
 		F39B95BECBC3427BFBDAC70C /* Pods_SILKAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */; };
 		F49DFD74F9C82CD205B8B165 /* Pods_SILKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093481700D137DF711392D6 /* Pods_SILKApp.framework */; };
@@ -158,6 +162,10 @@
 		87C4A9512AFD7A47003D2A99 /* ApiErrorDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorDto.swift; sourceTree = "<group>"; };
 		87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDto.swift; sourceTree = "<group>"; };
 		87C4A9562AFD7D6B003D2A99 /* LoginVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVm.swift; sourceTree = "<group>"; };
+		87C4A9582AFD8D85003D2A99 /* SilkNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilkNavigationBar.swift; sourceTree = "<group>"; };
+		87C4A95C2AFD9203003D2A99 /* HomeSidebarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSidebarVc.swift; sourceTree = "<group>"; };
+		87C4A9612AFDD27B003D2A99 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		87C4A9632AFDD285003D2A99 /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
 		C5B00C32D05D87E1DDC16E57 /* Pods_SILKAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BB08E79FDE5D32B1F4DEEA /* Pods-SILKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SILKApp.release.xcconfig"; path = "Target Support Files/Pods-SILKApp/Pods-SILKApp.release.xcconfig"; sourceTree = "<group>"; };
 		FD744F25C43A06AE2B970FE4 /* Pods_SILKApp_SILKAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SILKApp_SILKAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +286,7 @@
 				87C4A9252AFB6FCD003D2A99 /* SilkInputField.swift */,
 				87C4A93B2AFD312B003D2A99 /* SilkSearchBar.swift */,
 				87C4A9422AFD5807003D2A99 /* SilkSegmentedControl.swift */,
+				87C4A9582AFD8D85003D2A99 /* SilkNavigationBar.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -347,6 +356,7 @@
 		87C4A8D22AFAC4B4003D2A99 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				87C4A95B2AFD91F0003D2A99 /* sidebar */,
 				87C4A93D2AFD3C74003D2A99 /* component */,
 				87C4A9352AFC8C1E003D2A99 /* HomeView.swift */,
 				87C4A9372AFC8D9F003D2A99 /* HomeVc.swift */,
@@ -468,6 +478,24 @@
 				87C4A9542AFD7C5E003D2A99 /* LoginDto.swift */,
 			);
 			path = dto;
+			sourceTree = "<group>";
+		};
+		87C4A95B2AFD91F0003D2A99 /* sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9602AFDD254003D2A99 /* profile */,
+				87C4A95C2AFD9203003D2A99 /* HomeSidebarVc.swift */,
+			);
+			path = sidebar;
+			sourceTree = "<group>";
+		};
+		87C4A9602AFDD254003D2A99 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				87C4A9612AFDD27B003D2A99 /* ProfileView.swift */,
+				87C4A9632AFDD285003D2A99 /* ProfileVc.swift */,
+			);
+			path = profile;
 			sourceTree = "<group>";
 		};
 		9C608C57EE00756E154551E4 /* Frameworks */ = {
@@ -761,10 +789,12 @@
 				87C4A8EF2AFAE19B003D2A99 /* FontLibrary.swift in Sources */,
 				878FA4612AFA1E4E00B99FC8 /* SILKApp.xcdatamodeld in Sources */,
 				878FA45B2AFA1E4E00B99FC8 /* StarterVc.swift in Sources */,
+				87C4A9642AFDD285003D2A99 /* ProfileVc.swift in Sources */,
 				87C4A9332AFC8B11003D2A99 /* BaseViewController.swift in Sources */,
 				87C4A92A2AFB70A1003D2A99 /* UIViewPreview.swift in Sources */,
 				87C4A9222AFAEAE6003D2A99 /* Color.swift in Sources */,
 				87C4A94E2AFD7904003D2A99 /* httpClient.swift in Sources */,
+				87C4A9622AFDD27B003D2A99 /* ProfileView.swift in Sources */,
 				87C4A8E02AFAC5B4003D2A99 /* SilkButton.swift in Sources */,
 				87C4A9502AFD7A2D003D2A99 /* ApiResult.swift in Sources */,
 				87C4A9262AFB6FCD003D2A99 /* SilkInputField.swift in Sources */,
@@ -779,6 +809,8 @@
 				87C4A8DE2AFAC53F003D2A99 /* LoginView.swift in Sources */,
 				87C4A9522AFD7A47003D2A99 /* ApiErrorDto.swift in Sources */,
 				878FA4572AFA1E4E00B99FC8 /* AppDelegate.swift in Sources */,
+				87C4A95D2AFD9203003D2A99 /* HomeSidebarVc.swift in Sources */,
+				87C4A9592AFD8D85003D2A99 /* SilkNavigationBar.swift in Sources */,
 				87C4A9412AFD3DEF003D2A99 /* ProductCategoryCell.swift in Sources */,
 				87C4A93F2AFD3C88003D2A99 /* HomeProductCollectionView.swift in Sources */,
 				87C4A8CB2AFAC005003D2A99 /* AuthClient.swift in Sources */,

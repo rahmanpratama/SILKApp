@@ -6,8 +6,11 @@
 //
 
 import Foundation
-
+import UIKit
 
 class HomeRouter {
-    
+    func navigateToProfile(source: UIViewController) {
+        let vc = ProfileVc()
+        source.navigationController?.pushViewController(vc, animated: true)
+    }
 }

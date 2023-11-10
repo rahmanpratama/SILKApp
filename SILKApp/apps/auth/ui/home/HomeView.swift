@@ -12,6 +12,8 @@ import SnapKit
 
 class HomeView : UIView {
     
+    let customNavBar = SilkNavigationBar()
+    
     let scrollView: UIScrollView = {
         let scrollview = UIScrollView()
         scrollview.showsVerticalScrollIndicator = false
@@ -243,6 +245,8 @@ class HomeView : UIView {
         return view
     }()
     
+        
+    
     // MARK: - SetupView
     
     required init?(coder: NSCoder) {
@@ -257,12 +261,15 @@ class HomeView : UIView {
     
     func setupView() {
         backgroundColor = .white
-        
+        addSubview(customNavBar)
         addSubview(scrollView)
-        
+        customNavBar.snp.makeConstraints({ make in
+            make.leading.trailing.top.equalTo(safeAreaLayoutGuide)
+            make.height.equalTo(50)
+        })
         scrollView.snp.makeConstraints({ make in
             make.width.equalToSuperview()
-            make.top.equalToSuperview()
+            make.top.equalTo(customNavBar.snp.bottom)
             make.bottom.equalToSuperview()
             make.centerX.equalToSuperview()
         })

@@ -225,6 +225,38 @@
             endingLineNumber = "40"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "62741035-F2A4-4F40-85D1-0FF90F080596 - 2733b8aff7209ec0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.ProductCategoryCell.init(frame: __C.CGRect) -&gt; SILKApp.ProductCategoryCell"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "62741035-F2A4-4F40-85D1-0FF90F080596 - 2733b8aff7209ec0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.ProductCategoryCell.init(frame: __C.CGRect) -&gt; SILKApp.ProductCategoryCell"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/component/ProductCategoryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -241,6 +273,276 @@
             endingLineNumber = "77"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEB517C9-D9CC-4195-A508-956647BDC92C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEB517C9-D9CC-4195-A508-956647BDC92C - 1fdf1c5b80b33604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #15 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "DEB517C9-D9CC-4195-A508-956647BDC92C - 1fdf1c5b80b33604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #15 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00591B5E-4311-4529-8795-FDC5EB87AD5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/HomeVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "didCancelPressed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00591B5E-4311-4529-8795-FDC5EB87AD5E - f4b945aa5bc22a27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.HomeVc.didCancelPressed() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/HomeVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "00591B5E-4311-4529-8795-FDC5EB87AD5E - f4b945aa5bc22a18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.HomeVc.didCancelPressed() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/HomeVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "00591B5E-4311-4529-8795-FDC5EB87AD5E - f4b945aa5bc22b9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.HomeVc.didCancelPressed() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/HomeVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F500DBE-EB8D-4649-9E77-E331ABA3DDA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F500DBE-EB8D-4649-9E77-E331ABA3DDA6 - a31b954cc7f4effa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #16 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "3F500DBE-EB8D-4649-9E77-E331ABA3DDA6 - 850caf5ab3eebd87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "7244">
+               </Location>
+               <Location
+                  uuid = "3F500DBE-EB8D-4649-9E77-E331ABA3DDA6 - a31b954cc7f4ef9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #16 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF9A27D7-6215-4AE5-AEEF-02BA808F5F9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF9A27D7-6215-4AE5-AEEF-02BA808F5F9B - a31b954cc7f4ef9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #16 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "AF9A27D7-6215-4AE5-AEEF-02BA808F5F9B - a31b954cc7f4ef9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #16 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBFC17A1-3715-46BA-B9CE-EC9C91BD905C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBFC17A1-3715-46BA-B9CE-EC9C91BD905C - 850caf5ab3eebdc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "7348">
+               </Location>
+               <Location
+                  uuid = "FBFC17A1-3715-46BA-B9CE-EC9C91BD905C - a31b954cc7f4efbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #16 () -&gt; () in SILKApp.HomeSidebarVc.viewDidLoad() -&gt; ()"
+                  moduleName = "SILKApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/workrahman/Documents/GitHub/SILK/SILKApp/SILKApp/apps/home/ui/sidebar/HomeSidebarVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
